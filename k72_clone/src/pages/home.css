@@ -1,0 +1,78 @@
+.homeBody{
+    background: #000;
+}
+.textBox{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: start;
+}
+.screenVideo{
+    height: 100%;
+    object-fit: cover;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+.topText{
+    font-size: 7.3vmax;
+        font-family: font1;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 80vh;
+    
+}
+.topText div{
+    text-align: center;
+    
+}
+.videoDiv{
+    display: flex;
+    padding-left: 18%;
+}
+.video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.smVideo{
+      height: 8vw;
+    width: 15vw;
+    border: none;
+    border-radius: 146px;
+    overflow: hidden;
+}
+.botomText{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.bar{
+    height: 30%;
+     width: 33vw;
+    font-size: 5.5vw;
+        font-family: font1;
+    border-radius: 55px;
+    font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+    border: 3px solid white;
+    padding: 3% 3%;
+    margin: 0 3%;
+}
+.bar:hover{
+    color: greenyellow;
+    border-color: greenyellow;
+}

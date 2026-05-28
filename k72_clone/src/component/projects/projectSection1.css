@@ -1,0 +1,140 @@
+.projectSection1Main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 15%;
+}
+.projectSection1Main h1{
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-family: font1;
+    font-weight: 600;
+}
+.projectSection1Container{
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+}
+.projectSection1Box{
+    width: 48vw;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0.5% 0.4%;
+    overflow: hidden;
+}
+.projectSection1Box h2{
+    font-size: 4vw;
+    text-align: center;
+    font-family: font1;
+    position: absolute;
+    top: 40%;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+.projectSection1Box:hover h2{
+    opacity: 1;
+}
+.projectSection1Box:hover{
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.projectSection1Img{
+    width: 48vw;
+    height: 450px;
+    object-fit: cover;
+    
+}
+.projectSection1Img img{
+    width: 48vw;
+    height: 450px;
+    object-fit: cover;
+    
+}
+.projectSectiontitle{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.3fr;
+    grid-template-rows: 1fr;
+    height: 10vh;
+    position:fixed;
+    top: 12.8%;
+    background: white;
+    z-index: 100;
+    
+}
+.projectSectiontitleBox1{
+    border: 4px solid rgb(0, 0, 0) ;
+    padding-left: 2%;
+    font-size: 2vmax;
+    font-family: font1;
+    text-transform: uppercase;
+}
+.projectSectiontitleBox2{
+    border-top: 4px solid rgb(0, 0, 0) ;
+    border-bottom: 4px solid rgb(0, 0, 0) ;
+    padding-left: 2%;  
+    font-size: 2vmax;
+    font-family: font1;
+    text-transform: uppercase;
+}
+.projectSectiontitleBox3{
+    border-right: 4px solid rgb(0, 0, 0) ;
+    border-top: 4px solid rgb(0, 0, 0) ;
+    border-bottom: 4px solid rgb(0, 0, 0) ;
+    padding-left: 2%;  
+    font-size: 2vmax;
+    font-family: font1;
+    text-transform: uppercase;
+}
+@media  (max-width:600px) {
+    .projectSection1Img{   
+        width: 97%;
+    }
+    .projectSection1Img img{
+        width: 97%;
+        
+    }
+    .projectSection1Box{
+        width: 97%;
+
+    }
+    
+    
+}
+.footer{
+    width: 100%;
+    height: 90vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerContainer{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerBox1{
+    width: 30%;
+    height: 100%;
+    color: white;
+    font-family: font1;
+    text-align: center;
+}
+.footerBox1 h2{
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+.footerBox1 p{
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+}

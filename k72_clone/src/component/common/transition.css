@@ -1,0 +1,18 @@
+.transition_animation_main{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 50;
+    top: -150%;
+    display: none;
+}
+.transition_animation_container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.transition_animation_div{
+height: 150%;
+width: 20%;
+background: #000;
+}

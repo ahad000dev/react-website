@@ -1,0 +1,69 @@
+.agenceSection3main{
+    height: 12in;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    position: relative;
+}
+.agenceSection3box{
+    height: 0.8in;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid white;
+}
+#agenceSection3box111{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.agenceSection3box p{
+    height: 100%;
+    width: 70%;
+    margin: 1%;
+    font-size: 4vmin;
+    color: white;
+    z-index: 10;
+}
+.agenceSection3box h4{
+    height: 100%;
+    width: 30%;
+    margin: 1%;
+    font-size: 8vmin;
+    font-family: font1;
+    padding-top: 1%;
+    color: white;
+    text-align:right;
+    z-index: 10;
+}
+.agenceSection3DropBox{
+    width: 22vw;
+    height: 30vw;
+    position: sticky;
+    top: 30%;
+    border-radius: 10px;
+    left: 30%;
+    background: #5a533c;
+    object-fit: cover;
+    z-index: 10;
+}
+.dropbox111{
+    height: 100%;
+    width: 100%;
+    background: rgba(153, 205, 50, 0.747);
+    position: absolute;
+    top: -100%;
+    
+}
+#agenceSection3box111:hover .dropbox111{
+    top: 0%;
+    transition: all linear 0.2s;
+}
+#hr{
+    background: white;
+    height: 2px;
+    width: 100%;
+}

@@ -1,0 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: font1;
+    src: url("../public/HelveticaNeueRoman.otf");
+}

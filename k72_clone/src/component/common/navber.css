@@ -1,0 +1,205 @@
+.navBar_main{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+}
+.navBar_main1{
+    height: 16vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+}
+.menuItemMain{
+    margin-top: 8%;
+}
+.logo_div{
+    z-index: 3;
+    height: 5vmax;
+    width: 8vmax;
+    position: relative;
+    margin: 0.3%;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    color: aliceblue;
+}
+.side_ber{
+    height:80px;
+    width: 230px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+}
+.side_ber_second{
+    width: 50px;
+    height: 1.8px;
+    background: white;
+    margin-top: 3%;
+    margin-right:3% ;
+    z-index: 3;
+}
+.side_ber_first{
+    width: 70px;
+    height: 1.8px;
+    background: white;
+    margin-right:3% ;
+    z-index: 3;
+    
+}
+.side_ber{
+    height: 9vw;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+}
+.side_ber_second1{
+    width: 150px;
+    height: 1.8px;
+    background: white;
+    rotate:45deg ;
+    z-index: 3;
+}
+.side_ber_first1{
+    width: 150px;
+    height: 1.8px;
+    background: white;
+    z-index: 3;
+    rotate:-45deg ;
+    
+}
+.dropNav{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -100%;
+    background: yellowgreen;
+    transition: all linear 0.1s;
+}
+.side_ber:hover .dropNav{
+    top: 0%;
+}
+.side_ber:hover .side_ber_second{
+    background: #000;
+}
+.side_ber:hover .side_ber_first{
+    background: #000;
+}
+.main_menu{
+    height: 130vh;
+    width: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    z-index: 7;
+
+}
+.menu_item{
+    height: 120px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-top:2px solid rgb(238, 236, 224) ;
+}
+.menu_item_box{
+    height:100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 8vw;
+        font-family: font1;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menu_item_ber{
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    overflow: hidden;
+    background: yellowgreen;
+}
+.menu_item_ber_container{
+    height:100%;
+    width: 94vw;
+    display: inline;
+    animation: scrollintAnimition 7s 1s linear infinite ;
+}
+.link{
+    height: 100%;
+    width: 80%;
+    color: white;
+        font-family: font1;
+    font-size: 8vw;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-decoration: none;
+
+}
+.menu_item_ber_container img{
+    height: 50%;
+    width: 15%;
+    border-radius: 50px;
+}
+
+#menu_item_last{
+    border-bottom:2px solid rgb(238, 236, 224) ;
+}
+@keyframes scrollintAnimition {
+    to{
+        transform: translateX(-100%);
+    }
+}
+.menu_item:hover .menu_item_ber{
+    opacity: 1;
+}
+.menu_item:hover .menu_item_ber_container span{
+    color: #000;
+}
+.menu_item:hover .menu_item_box{
+    opacity: 0;
+}
+.menu_item:hover .menu_item_drop{
+    top: 0;
+}
+.side_ber1:hover .side_ber_first1{
+    background-color: yellowgreen;
+}
+.side_ber1:hover .side_ber_second1{
+    background-color: yellowgreen;
+}
+.transition_animation_mainNav{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 50;
+    top: -150%;
+    display: none;
+}
+.transition_animation_containerNav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.transition_animation_divNav{
+height: 150%;
+width: 20%;
+background: #000;
+}
