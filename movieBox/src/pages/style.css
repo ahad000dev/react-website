@@ -1,0 +1,135 @@
+
+nav{
+    height: 1in;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+}
+.navLogo{
+    height: 100%;
+    width: 50%;
+    padding: 0.5% 3%;
+}
+.logo {
+  height: 80%;
+  width: 40%;
+  background-image: url("../assets/movieLogo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav_title{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    padding-top:1%;
+    padding-left: 1%;
+    color: wheat;
+    font-size: 3vmax;
+    font-weight: bold;
+}
+
+.container{
+    height: 6in;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url("../assets/movieBackground.jpg");
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.container_shadow{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #00000094;
+}
+.container_title{
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    padding-top: 5.5%;
+    color: #faa307 ;
+    font-size: 6vmax;
+    font-weight: bold;
+    z-index: 10;
+}
+.container_box{
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    color: #eaa97a ;
+    font-size: 3vmax;
+    padding-top: 5%;
+    font-weight: 500;
+    z-index: 10;
+    
+}
+.container_btn{
+    height: 0.7in;
+    width: 20vw;
+    padding: 0.5% 2%;
+    font-size: 2vmax;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffd60a;
+    z-index: 10;
+    font-weight: bold;
+}
+footer{
+    height: 5in;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footerHeading{
+    height: 60%;
+    width: 100%;
+    padding: 3% 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fooerTitle{
+    height: 40%;
+    width: 70%;
+    text-align: start;
+    color: wheat;
+    font-size: 3.5vmax;
+    font-weight: 700;
+}
+.footerContainer{
+    height: 40%;
+    width: 70%;
+    text-align: start;
+    color: white;
+    font-size: 1.5vmax;
+    font-weight: 700;
+    
+}
+.footerLink{
+    height: 40%;
+    width: 100%;
+    padding: 3% 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerLink a{
+    font-size: 2vmax;
+    text-decoration: none;
+    color: rgb(235, 73, 73);
+    margin-left: 5%;
+}
