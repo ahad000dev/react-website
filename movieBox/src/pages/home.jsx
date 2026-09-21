@@ -1,19 +1,22 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import "./style.css"
 const home = () => {
+  const navigate = useNavigate()
+
   return (
     <>
       <nav>
           <div className="navLogo">
             <div className='logo'></div>
           </div>
-          <div className="nav_title">Explore Movie</div>
+          <div className="nav_title" onClick={() => navigate('/show')}>Explore Movie</div>
       </nav>
       <div className="container">
         <div className="container_shadow"></div>
         <div className="container_title">DISCOVER MOVIES</div>
         <div className="container_box"> Explore and discover your favorite <br /> movies from around the world. </div>
-        <button className='container_btn'>Explore Movies</button>
+        <button className='container_btn' onClick={() => navigate('/show')}>Explore Movies</button>
       </div>
       <footer>
         <div className="footerHeading">
